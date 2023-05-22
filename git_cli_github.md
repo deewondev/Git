@@ -14,9 +14,16 @@ This command is used to start or create a new repository.
 
 *git remote
 
-Usage: git remote add [variable name] [Remote Server Link]  
+Usage: git remote add [remote name] [Remote Server Link]  
 This command is used to connect your local repository to the remote server.
 NB: variable name commonly used as [origin] and remote server link is your [repository url]
+
+Usage: git remote -v
+This command list all remote server you are connected to
+
+Usage: git remote remove [remote name]
+This command list all remote server you are connected to
+NB: remote name can be [upstream]
 
 
 *git clone
