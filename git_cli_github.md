@@ -91,7 +91,7 @@ This command creates a new branch.
 Usage: git branch -d [branch name]  
 This command deletes the feature branch from command line.
 
-Usage: git push origin --delete [branch name]
+Usage: git push origin --delete (-d) [branch name]
 This command deletes the feature branch from github directly
 
 
